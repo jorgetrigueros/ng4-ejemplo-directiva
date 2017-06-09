@@ -5,13 +5,11 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { TooltipDirective } from './tooltip.directive';
-import { PruebaDirective } from './prueba.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TooltipDirective,
-    PruebaDirective
+    TooltipDirective
   ],
   imports: [
     BrowserModule,
